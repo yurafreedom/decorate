@@ -5710,7 +5710,7 @@ form label textarea {
 	max-width: 575px;
 	left: -webkit-calc(50% - 287.5px);
 	left: calc(50% - 287.5px);
-	top: -50%;
+	top: -90%;
 	text-align: center;
 	background-color: #fff!important;
 	-webkit-border-radius: 10px;
@@ -5760,12 +5760,12 @@ form label textarea {
 }
 
 .modal_neural .h3 {
-	font-size: 40px;
+	font-size: 28px;
 	font-family: OpenSansBold, sans-serif;
 	padding-top: 44px;
 	color: #2e2e2e;
 	text-transform: uppercase;
-	line-height: 48px
+	line-height: 36px;
 }
 
 .modal_neural p {
