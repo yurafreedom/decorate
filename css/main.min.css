@@ -7363,3 +7363,27 @@ form label textarea {
 		left: 0!important
 	}
 }
+
+@media screen and (min-width: 1200px) {
+	.modal_neural {
+		top: -90%;
+	}	
+}
+
+@media screen and (min-width: 1440px) {
+	.modal_neural {
+		top: -83%;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.modal_neural {
+		top: -74%;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.modal_neural {
+		top: -50%;
+	}
+}
