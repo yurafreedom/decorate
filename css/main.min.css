@@ -5626,8 +5626,6 @@ form label textarea {
 	display: none
 }
 
-
-
 .modal_window {
 	max-width: 575px;
 	left: -webkit-calc(50% - 287.5px);
@@ -5708,7 +5706,81 @@ form label textarea {
 	margin: 0 auto
 }
 
+.modal_neural {
+	max-width: 575px;
+	left: -webkit-calc(50% - 287.5px);
+	left: calc(50% - 287.5px);
+	top: -webkit-calc(50% - 280px);
+	top: calc(50% - 280px);
+	text-align: center;
+	background-color: #fff!important;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-bottom: 59px;
+	-webkit-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	opacity: 0;
+	position: relative
+}
 
+.modal_neural .senks {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	display: none
+}
+
+.modal_neural .senks.active {
+	display: block
+}
+
+.modal_neural .senks .h3 {
+	margin: 0;
+	padding: 0;
+	padding-top: -webkit-calc(44% - 20px);
+	padding-top: calc(44% - 20px)
+}
+
+.modal_neural.active {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1)
+}
+
+.modal_neural .close {
+	top: 0;
+	right: -45px
+}
+
+.modal_neural .h3 {
+	font-size: 40px;
+	font-family: OpenSansBold, sans-serif;
+	padding-top: 44px;
+	color: #2e2e2e;
+	text-transform: uppercase;
+	line-height: 48px
+}
+
+.modal_neural p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.3;
+	margin-top: 20px;
+	margin-bottom: 40px
+}
+
+.modal_neural form {
+	max-width: 429px;
+	margin: 0 auto
+}
 
 .btn_checked {
 	border-top: 1px solid #dcdcdc;
@@ -7071,6 +7143,45 @@ form label textarea {
 		background-position: 20px 11px
 	}
 	.modal_window form label textarea {
+		background-position: 20px 0!important
+	}
+	.modal_neural .close {
+		right: 0!important;
+		top: -45px
+	}
+	.modal_neural {
+		max-width: 300px!important;
+		padding-top: 10px;
+		left: -webkit-calc(50% - 150px);
+		left: calc(50% - 150px);
+		top: -webkit-calc(50% - 185px);
+		top: calc(50% - 185px);
+		padding-bottom: 20px
+	}
+	.modal_neural .h3 {
+		font-size: 22px;
+		margin-bottom: 0;
+		line-height: 1.4;
+		padding-top: 5px
+	}
+	.modal_neural p {
+		font-size: 14px;
+		margin-top: 10px;
+		padding: 0 13px;
+		margin-bottom: 25px
+	}
+	.modal_neural form {
+		padding: 0 16px
+	}
+	.modal_neural form label input,
+	.modal_neural form label textarea {
+		padding-top: 10px!important;
+		padding-bottom: 12px!important;
+		font-size: 14px;
+		height: 40px;
+		background-position: 20px 11px
+	}
+	.modal_neural form label textarea {
 		background-position: 20px 0!important
 	}
 	.contact_item_text ul li:nth-child(4)::before {
