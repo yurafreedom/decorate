@@ -5710,8 +5710,7 @@ form label textarea {
 	max-width: 575px;
 	left: -webkit-calc(50% - 287.5px);
 	left: calc(50% - 287.5px);
-	top: -webkit-calc(50% - 280px);
-	top: calc(50% - 280px);
+	top: -50%;
 	text-align: center;
 	background-color: #fff!important;
 	-webkit-border-radius: 10px;
@@ -7076,7 +7075,15 @@ form label textarea {
 }
 
 
-
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.modal_neural {
+		top: -90%;
+	}
+	.modal_neural .h3 {
+		font-size: 28px;
+		line-height: 36px;
+	}	
+}
 
 
 @media (max-width:575.98px) {
@@ -7154,8 +7161,7 @@ form label textarea {
 		padding-top: 10px;
 		left: -webkit-calc(50% - 150px);
 		left: calc(50% - 150px);
-		top: -webkit-calc(50% - 185px);
-		top: calc(50% - 185px);
+		top: -50%;
 		padding-bottom: 20px
 	}
 	.modal_neural .h3 {
